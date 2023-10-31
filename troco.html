@@ -1,0 +1,107 @@
+<html>
+<head>
+    
+    <meta charset="utf-8">
+
+    <title>Educação Financeira Inafantil</title>
+    <link rel="stylesheet" href="troco.css">
+
+    <header>
+        <a class="logo" href="#">Educação Financeira Infantil</a>
+      </header>
+      
+      <article>
+        <header>
+          <h1>Vamos Aprender</h1>
+          <time>2023</time>
+        </header>
+        <p></p>
+      </article>    
+</head>
+<body>
+ 
+<h1>Caixa do Supermercado</h1>
+<p>Bem Vindos ao EducaSuper</p>
+
+<p>Digite o Valor da Compra</p>
+<input id="valorCompra"><br>
+
+<p>Qual o Valor Recebido?</p>
+<input id="valorRecebido"><br><br>
+
+<button onclick="calcularTroco()">Clica para calcular o Valor</button>
+<div id="resultado"></div>
+
+<script>
+function pulalinha() {
+document.write("<br>");
+}
+
+function mostra(mostra) {
+    document.write(mostra);
+    pulalinha();
+}
+
+function calcularTroco() {
+var valorRecebido = parseFloat(document.getElementById("valorRecebido").value);
+var valorCompra = parseFloat(document.getElementById("valorCompra").value);
+var troco = valorRecebido - valorCompra;
+if (troco === 0) {
+alert("Você não tem nenhum valor a passar para o Cliente");
+} else if (troco < 0) {
+                alert("Pagamento Insuficiente");
+    } else {
+        document.getElementById("resultado").innerHTML = "Este é o valor para entregar ao Cliente: R$ " + troco;
+            }
+        }
+    </script>
+   <div>
+    <p>
+        <div id="page-container">
+            <div id="content-wrap">
+              <!-- o resto do conteúdo da página -->
+            </div>
+ <footer class="rodape" id="contato">
+    <div class="rodape-div">
+
+        <div class="rodape-div-1">
+            <div class="rodape-div-1-coluna">
+                <!-- elemento -->
+                <p>
+                <p>Sete Lagoas - MG </p>
+                </p>
+            </div>
+        </div>
+
+        <div class="rodape-div-2">
+            <div class="rodape-div-2-coluna">
+                <!-- elemento -->
+                <span><b>Contatos</b></span>
+                <p>danielle.silvafa@gmail.com</p>
+            </div>
+        </div>
+
+        <div class="rodape-div-2-coluna">
+            <div class="rodape-div-3-coluna">
+                <!-- elemento -->
+        </div>
+
+        <div class="rodape-div-4">
+            <div class="rodape-div-4-coluna">
+                <!-- elemento -->
+                <p>Políticas de Privacidade</p>
+            </div>
+        </div>
+
+    </div>
+    <p class="rodape-direitos">Copyright © 2023 – Todos os Direitos Reservados.</p>
+</footer>
+        </div>
+    </p>
+   </div>
+   
+</body>
+<script src="troco.js"> </script>
+
+
+</html>

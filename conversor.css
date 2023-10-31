@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    flex-direction: column;
+    gap: 5px;
+    background: linear-gradient(90deg, rgb(255, 251, 25) 0%, rgb(21, 119, 248) 100%);
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+.converter {
+    padding: 10px;
+    border: 1px solid #dcff16;
+    border-radius: 10px;
+    background-color: #4ecad3;
+    margin: 30px auto;
+    width: 300px;
+    
+}
+
+.converter label, .converter input {
+    display: block;
+    margin: 10px 0;
+}
+
+.resultado {
+    margin: 20px auto;
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #dcff16;
+    border-radius: 5px;
+    background-color: #56ff14;
+    margin: 10px auto;
+    width: 300px;
+    
+}
+/* Estilos para o rodapé */
+footer {
+    background-color: #1567ff;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+

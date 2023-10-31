@@ -1,0 +1,70 @@
+/* Estilos para o corpo da página */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+     
+}
+
+/* Estilos para o cabeçalho */
+header {
+    color: rgb(0, 255, 13);
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #fffb1b;
+    border-radius: 5px;
+    background-color: #fffb2b;
+    margin: 10px auto;
+    width: 500px;
+}
+
+/* Estilos para a barra de navegação */
+nav {
+    background-color: #19c902;
+    text-align: center;
+    padding: 10px 0;
+    display:inline-block;
+   
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+nav li:hover {
+    
+    background-color: #0010ec;
+}
+
+
+/* Estilos para o conteúdo principal */
+main {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;  
+
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #003cff;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Importação de fontes do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');

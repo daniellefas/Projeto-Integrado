@@ -1,0 +1,85 @@
+.logo {
+    display: flex;
+    height: 220px;
+    align-items: center;
+    justify-content: center;
+    font:
+      bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script',
+      fantasy;
+    color: #98ffc7;
+    text-shadow: #000 2px 2px 0.2rem;
+  }
+  
+  header > h1 {
+    margin-bottom: 0;
+  }
+  
+  header > time {
+    font: italic 0.7rem sans-serif;
+  }
+  body {
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    text-align: center;
+    
+  }
+
+h1 {
+    margin: 20px 0;
+}
+
+#game-container {
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+a {
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #98ffc7;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: #f18509;
+}
+.center {
+    margin: 5% 0;
+    background: lime;
+    width: 66%;
+  }
+  
+  .outside {
+    margin: 3rem 0 0 -3rem;
+    background: cyan;
+    width: 66%;
+  }
+  
+  footer {
+    background-color: #ff9d0a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
