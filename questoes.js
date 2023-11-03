@@ -25,12 +25,12 @@ const questions = [
         correctAnswer: "5"
     },
     {
-        question: "Se eu tenho 4 Maçãs e cada uma custa R$1,75. Qual será o valor total?", 
+        question: "Se eu tenho 4 Maçãs que custa R$1,75 cada. Qual será o valor total?", 
     choices: ["R$7,00 Reais", "R$5,25 Reais", "R$6,75 Reais" ,"8 Reais"],
         correctAnswer: "R$7,00"
     },
     {
-        question: "Fui ao Supermercado e peguei 3 (três) caixas de Bombom, cada caixa custa R$9,99 e eu entrei R$50,00 reais ao caixa. Quanto que terei de troco?", 
+        question: "Fui ao Supermercado e peguei 3 (três) caixas de bombons, cada caixa custa R$9,99 e eu entreguei R$50,00 reais ao caixa. Quanto que terei de troco?", 
     choices: ["R$30,00 Reais", "R$10,52 Reais", "R$20,00 Reais" ,"R$19,90 Reais"],
         correctAnswer: "R$20,00"
     }
